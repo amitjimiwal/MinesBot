@@ -11,7 +11,7 @@ const Logout = () => {
       const {username}=useSelector(state=>state.user)
       useEffect(()=>{
         window.botpressWebChat.init({
-          "composerPlaceholder": "Sigma Bot",
+          "composerPlaceholder": "Start typing...",
           "botConversationDescription": "Ask any Doubts regarding Mining Acts",
           "botId": "7d830d80-b257-4e08-ad91-28604776db81",
           "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
