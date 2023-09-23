@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <section className="flex flex-col justify-center">
-      <h1 className="text-2xl text-center mb-3 font-bold">Login Redux</h1>
+      <h1 className="text-2xl text-center mb-3 font-bold">Enter Details to Use Chabot</h1>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col justify-center text-1xl"
@@ -43,19 +43,19 @@ const Login = () => {
           className="p-2 mb-2 outline-none border-black border-[1px] rounded-lg"
           required
         />
-        <input
+        {/* <input
           type="password"
           placeholder="Enter Password"
           name="password"
           onChange={handleChange}
           className="p-2 mb-2 outline-none border-black border-[1px] rounded-lg"
           required
-        />
+        /> */}
         <button
           type="submit"
           className="border-[1px] border-zinc-700 bg-slate-700 p-1 rounded-xl text-white font-bold hover:bg-slate-500"
         >
-          Login
+          Enter
         </button>
       </form>
     </section>
